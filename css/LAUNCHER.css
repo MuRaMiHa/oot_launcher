@@ -1,0 +1,547 @@
+@CHARSET "UTF-8";
+body {
+	background: #000000;
+	padding: 1px 0px 0px 1px;
+	margin: 0px;
+}
+
+img {
+	border-width: 0px;
+}
+
+ul, ol, li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+/*------------------------------------------
+-- Background frame
+--------- */
+
+
+#id_background {
+	background-color: #000000;
+	padding: 3px 10px;
+	margin: 0px;
+	width: 780px;
+	height: 594px;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	position: relative;
+	left: 1px;
+	top: 1px;
+	background: #000000 url("../img/bg_frame.jpg") no-repeat;
+}
+
+
+/* Window caption */ 
+.b-caption {
+        width:100%;
+    }
+    
+    .b-caption .b-caption-left {
+        float: left;
+        font: 18px 'HeliosCond';
+		width: 700px;
+    }
+
+    .b-caption .b-caption-left .wot_logo {
+        margin-top: 1px;
+    }
+
+    .b-caption .b-caption-left .wot_title {
+        vertical-align: 6px;
+        color: #000000;   
+    }
+    
+    .b-caption .b-caption-left .wot_server_status {
+        vertical-align: 6px;
+        color: #FFFFFF;
+        display: none;
+    }
+
+
+    .b-caption .b-caption-right {
+        float: right;
+    }
+    .b-caption .b-caption-right ul.system_buttons {
+        
+    }
+
+    .b-caption .b-caption-right ul.system_buttons li {
+        float: left;        
+    }
+	.b-caption .b-caption-right ul.system_buttons li a{
+		display:block;
+		width:20px;
+		height:20px;
+		margin:2px 0 2px 4px;
+		text-indent:-200px;
+		background-image:url(../img/system_buttons.gif);
+    }
+    
+    .b-caption .b-caption-right #id_system_btn_close {
+    }
+
+
+	#id_window_caption .system_button a,#id_window_caption .system_button a:active, #id_window_caption .system_button a:visited {
+		margin: 4px 2px 0px;
+        display: block;
+        width: 20px; height: 20px;
+        overflow: hidden;        
+        float: right;
+		background-color:#141310;
+		background-image:url("../img/system_buttons.gif");
+		background-repeat:no-repeat;
+	}
+
+    #id_system_btn_close {
+        background-position:0px 0px;
+    }
+	#id_system_btn_close:hover {
+        background-position:-20px 0px;
+    }
+    #id_system_btn_minimize {
+        background-position:0px 40px;
+    }
+	#id_system_btn_minimize:hover {
+		background-position:-20px 40px;
+    }
+    #id_system_btn_options {
+        background-position:0px 20px;
+    }
+	#id_system_btn_options:hover {
+        background-position:-20px 20px;
+    }
+
+
+
+.b-header {
+	height:124px;
+	width:335px;	
+    z-index: 4;
+    position: relative;
+	}
+	.b-header-menu {
+	    z-index: 4;
+    	position: absolute;
+		top:128px;
+		right:10px;
+		background:url(../img/bg-header-menu.png) repeat-x;
+		height:28px;
+        width:512px;
+		}
+
+	.b-header-menu .nav-menu{
+	    z-index: 3;
+	    position: relative;
+		padding:4px 0 0;
+		text-align:right;
+		float:right;
+		font-size:14px;
+		font-family:'HeliosCond';
+		text-transform:uppercase;
+		}
+		.b-header-menu .nav-menu li {
+			margin:0 8px 0 15px;
+			float:left;
+			}
+		.b-header-menu .nav-menu a {
+			color:#e8ddb2;
+			text-decoration:none;
+			}
+		.b-header-menu .nav-menu a:hover {
+			color:#e8ddb2;
+			text-decoration: underline;
+			}
+		.b-header-menu .nav-menu .loadmoney a{
+			color:#e38c02;
+			}				
+		.b-header-menu .lang-menu {
+			position: absolute;
+			top:5px;
+			left:5px;
+			z-index:4;
+			}			
+		.b-header-menu .lang-menu .wrapper-out {
+			display:block;
+			font-size:11px;
+			font-family:arial;
+			border:1px solid #000;
+			float:left;
+			zoom:1;
+			display:block;
+			z-index:5;
+			}
+			.b-header-menu .lang-menu .wrapper-in {
+				padding:3px 11px 4px 3px;
+				border:1px solid #202018;
+				background:#10100c;
+				color:#66665a;
+				}
+			.b-header-menu .lang-menu .wrapper-in ul {
+				margin:6px 0 0;
+				}
+			.b-header-menu .lang-menu .active {
+                width:21px;
+                height:15px; 
+				padding:0 11px 0 0;
+                margin: 0 0 0 5px;
+				cursor:pointer;
+				background:url(../img/arr-lang.png) no-repeat 100% 0;
+				}
+			.b-header-menu .lang-menu .title span {
+				display:none;
+				}
+			.b-header-menu .lang-menu li {
+				display:block;
+				margin:0 0 3px;
+				vertical-align:middle;
+				cursor:pointer;
+				}
+			.b-header-menu .lang-menu li span {
+				color:#e8ddb2;
+				vertical-align:top;
+				padding:0 0 0 5px;
+				}
+.b-footer {
+	position:absolute;
+	bottom:5px;
+	width:780px;
+	}
+	.b-footer .copy {
+		clear:both;
+		text-align:center;
+		font-family:tahoma, arial;
+		font-size:11px;
+		color:#9a8a6d;
+		padding:4px 0 3px;
+		}
+		
+	 /*-- Operation icon  -----*/
+
+	#windowStatusIcon {
+        width: 32px; 
+        height: 32px; 
+        background-color:#1f2517; 
+        float:left;
+        position: relative;
+        left: -2px;
+    }
+
+    /* for "Torrent downloading" state. */
+    .TORRENT_ICON {
+        background-image:url(../img/status_torrent.gif);
+    }
+    /*  for "Getting/Parsing patch info" state. */
+    .WAITING_ICON {
+		background-image:url(../img/status_waiting.gif);
+    }
+    /* for "Http downloading" state. */
+    .HTTP_ICON {
+        background-image:url(../img/status_http.gif);
+    }
+    /* for "Installing" state. */
+    .INSTALL_ICON {
+        background-image:url(../img/status_install.gif);
+    }
+    /* for "Complete install/Has no patches" states. */
+    .COMPLETE_ICON {
+        background-image:url(../img/status_complete.gif);
+    }
+    /* for any critical error. */
+    .ERROR_ICON {
+        background-image:url(../img/status_error.gif);
+    }
+
+
+
+.b-button {
+	width:129px;
+	height:33px;
+	float:right;
+	position:relative;	
+	text-align:center;
+	font-size:21px;
+	font-family: 'HeliosCond';
+	color:#fffffe;
+	}
+.b-button .b-button-wait {
+	height:32px;
+	line-height:32px;
+	vertical-align:middle;	
+	background: url(../img/bg-btn-wait.jpg) no-repeat;
+	}
+.windowMainButton {
+	display:none;	
+	position:absolute;
+	top:0;
+	left:0;
+	height:32px;
+	width:100%;
+	line-height:32px;
+	vertical-align:middle;
+	}
+    .windowMainButton a {
+    	display:block;
+    	height:32px;
+    	line-height:32px;	
+    	color:#fffffe;
+    	text-decoration:none;
+        font-weight:bold;
+	}
+    #mainBtn_CANCEL {
+        background:url(../img/bg-btn-cancel.jpg) no-repeat;
+    }
+    #mainBtn_CONTINUE {
+        background:url(../img/bg-btn-continue.jpg) no-repeat;
+    }
+    #mainBtn_PLAY {
+        background:url(../img/bg-btn-active.jpg) no-repeat;
+    }
+    
+
+
+	#windowProgressBar {
+		background:#333333 url(../img/bg-progress-bar.png) 0 0px;
+		border:1px solid #000;
+		border-left:none;
+		height: 30px;
+		width: 612px;
+		float: left;
+		display: inline;
+		position: relative;
+        left: -2px;
+		vertical-align: middle;
+	}
+	#windowProgressBar-active {
+		background:#934c11 url(../img/bg-progress-bar-active.png) 0 0px;
+		position:absolute;
+		left:0;
+		top:0;
+		height:30px;
+		}
+	
+
+	.windowProgressBarText {
+		width: 100%;
+        height: 100%;
+		color: #cfcbbc;
+		vertical-align: middle;
+		padding-left: 11px;
+		padding-right: 11px;
+		position: relative;
+		display: inline;
+		z-index: 999;
+	}
+
+
+	#windowProgressBarStatus {
+		color: #cfcbbc;
+		text-align: left;
+		font: 12px Arial, Helvetica, sans-serif;
+		overflow: hidden;
+        margin-left: 4px;
+	}
+	#windowProgressBarStatus.NORMAL {
+		color: #cfcbbc;
+	}
+	#windowProgressBarStatus.WARNING  {
+		color: yellow;
+	}
+	#windowProgressBarStatus.ERROR  {
+		color: red;
+        font-weight: bold;
+	}
+
+
+	#windowProgressBarStats {
+		text-align: right;
+		vertical-align: middle;
+		font-family:'HeliosCond';
+		font-size:18px;
+		font-weight:bold;
+        margin-right: 6px;
+		color:#b6b3a8;
+	}
+
+
+
+/*------------------------------------------*/
+/*------    Static / Dynamic Contents  -----*/
+/*------------------------------------------*/
+
+#staticContent, #dynamicContent {
+	position: absolute;
+	top:32px; left:11px;
+
+	height: 502px;
+	width: 779px;
+    z-index: 2;
+}
+
+#dynamicContent {
+	background: #101010;
+    overflow: hidden;
+}
+
+#staticContent {
+	background: #000000;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	display: block;
+}
+
+#staticContent A {
+	color: #e8ddb2;
+}
+
+#staticContent A:hover {
+	text-decoration: none;
+}
+
+
+#staticContent .loader {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	margin-top: -32px;
+	margin-left: -32px;
+}
+#staticContent .error {
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top:32px;
+	width:100%;
+	color:#A00;
+	text-align:center;
+	font-size:18px;	
+}
+
+
+/*------------------------------------------*/
+/*------         Message Box           -----*/
+/*------------------------------------------*/
+
+    .ui-dialog {
+		width:362px;
+		height:133px;
+		padding:4px;
+		border:1px solid #807b5e;
+		background:#5b5346 url(../img/bg-dialog.jpg) no-repeat 0 0;
+    }
+
+    .ui-dialog .ui-dialog-titlebar {
+        padding:6px 8px 9px;
+        position: relative;
+    }
+
+    .ui-dialog .ui-dialog-title {
+   		font-size:18px;
+		font-family:'HeliosCond';
+		color:#030303;
+		font-weight:bold;
+
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+		padding:4px 0;
+        text-align: center;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+		background:url(../img/btn-dialog.jpg) no-repeat 0 0;
+		width:76px;
+		height:22px;
+		line-height:22px;
+		text-align:center;
+		vertical-align:middle;
+		font-family:'HeliosCond';
+		font-size:15px;
+		font-weight:bold;
+		padding:0;
+		margin:0 5px;
+		border:none;
+    }
+	 .ui-dialog .ui-dialog-buttonpane button:hover {
+		background:url(../img/btn-dialog-active.jpg) no-repeat 0 0;
+		}
+
+    .ui-widget-overlay {
+        background: #666666; 
+        opacity: .50;
+        filter:Alpha(Opacity=50); 
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+	.ui-dialog-content {
+        height:100px;
+        padding:18px;
+        background:#13120b url(../img/bg-dialog-content.jpg) repeat-y 0 0;
+        color:#e8ddb2;
+        text-shadow:#000 1px 1px 1px;
+        font-size:11px;
+        font-family:Arial, Helvetica, sans-serif;  
+		}
+		.ui-dialog-content .ui-icon {
+          width:31px;
+          height:31px;
+          margin:0 20px 0 0;
+
+		}
+			.ui-dialog-content .ui-icon-warning {
+				background:url(../img/ui-icon-warning.gif) no-repeat 0 0;
+				}
+			.ui-dialog-content .ui-icon-error {
+				background:url(../img/ui-icon-error.gif) no-repeat 0 0;
+				}
+			.ui-dialog-content .ui-icon-question {
+				background:url(../img/ui-icon-question.gif) no-repeat 0 0;
+				}
+        .ui-dialog-content td {
+            vertical-align: middle;
+        }  
+        .ui-dialog-content .td-text {
+            width:100%;
+        }
+        .ui-dialog-content .ui-text {
+            zoom:1;
+        }
+		#id_options_dialog input {
+			border:1px solid #63604d;
+			padding:0;
+			margin:0;
+			color:#e8ddb2;
+			}
+		#id_options_dialog	#id_options_torrent_port {
+			font-size:11px;
+			background:#030303;
+			border:1px solid #63604d;
+			}
+		#id_options_dialog	#id_options_use_torrent {
+			cursor:pointer;
+			}
+        #id_options_dialog	#id_options_use_torrent.checked {        
+            background:url(../img/input-chekbox-active.gif) no-repeat 0 0;
+            }
+
+		#id_options_dialog td {
+			padding:3px 4px;
+			}
+		#id_options_dialog .td-input {
+			text-align:right;
+			}
+
+            @font-face {
+                font-family: HeliosCond;
+                src:url("../common/img/warhelioscondcbold-webfont.eot");
+                font-weight: normal;
+                font-style: normal;
+                src: local('ZurichCondBold Regular'), url('../common/img/warhelioscondcbold-webfont.woff') format('woff'), url('../common/img/warhelioscondcbold-webfont.ttf') format('truetype');
+            }
