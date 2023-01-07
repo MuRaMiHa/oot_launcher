@@ -1,7 +1,6 @@
 @CHARSET "UTF-8";
 body {
 	background: #000000;
-	padding: 1px 0px 0px 1px;
 	margin: 0px;
 }
 
@@ -23,7 +22,6 @@ ul, ol, li {
 
 #id_background {
 	background-color: #000000;
-	padding: 3px 10px;
 	margin: 0px;
 	width: 780px;
 	height: 594px;
