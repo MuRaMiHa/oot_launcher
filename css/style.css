@@ -123,15 +123,15 @@ ul, ol, li {
 @font-face {
 	font-family: 'WarHeliosCondCBoldRegular';
 	src: url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.eot');
-	src: local('☺'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.svg#webfontwE9Mslds') format('svg');
+	src: local('☺'), url('../fonts/warhelioscondcbold-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.svg#webfontwE9Mslds') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'WarHeliosCondCRegular';
+	font-family: 'HeliosCond';
 	src: url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.eot');
-	src: local('☺'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.svg#webfontYQjzljsZ') format('svg');
+	src: local('☺'), url('../fonts/warhelioscondcbold-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondc-webfont.svg#webfontYQjzljsZ') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
