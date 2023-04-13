@@ -113,7 +113,7 @@ ul, ol, li {
     }
 
 @font-face {
-	font-family:'Conv_zurichcondbold3-webfont';
+	font-family:'HeliosCond';
 	src: url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.eot');
 	src: local('☺'), url('../fonts/warhelioscondcbold-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.svg#webfontwE9Mslds') format('svg');
 	font-weight: bold;
@@ -121,7 +121,7 @@ ul, ol, li {
 }
 
 @font-face {
-	font-family: 'WarHeliosCondCBoldRegular';
+	font-family: 'HeliosCond';
 	src: url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.eot');
 	src: local('☺'), url('../fonts/warhelioscondcbold-webfont.woff') format('woff'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.ttf') format('truetype'), url('/web/20130116124153im_/http://downloads.worldoftanks.ru/wotru/fc2js15/files/warhelioscondcbold-webfont.svg#webfontwE9Mslds') format('svg');
 	font-weight: bold;
