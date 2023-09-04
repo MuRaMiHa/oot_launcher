@@ -1,4 +1,47 @@
 @CHARSET "UTF-8";
+@font-face {
+    font-family: robotocondensedbold;
+    src: url('/assets/font/robotocondensed-bold-webfont.eot');
+    src: url('/assets/font/robotocondensed-bold-webfont.eot') format("embedded-opentype"),url('/assets/font/robotocondensed-bold-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: robotocondensedregular;
+    src: url('/assets/font/robotocondensed-regular-webfont.eot');
+    src: url('/assets/font/robotocondensed-regular-webfont.eot') format("embedded-opentype"),url('/assets/font/robotocondensed-regular-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: robotoregular;
+    src: url('/assets/font/roboto-regular-webfont.eot');
+    src: url('/assets/font/roboto-regular-webfont.eot') format("embedded-opentype"),url('/assets/font/roboto-regular-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'WarHeliosCondC';
+    src: url('/assets/font/warhelioscondc-webfont.eot');
+    src: url('/assets/font/warhelioscondc-webfont.eot') format("embedded-opentype"),url('/assets/font/warhelioscondc-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'WarHeliosCondCBold';
+    src: url('/assets/font/warhelioscondcbold-webfont.eot');
+    src: url('/assets/font/warhelioscondcbold-webfont.eot') format("embedded-opentype"),url('/assets/font/warhelioscondcbold-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
 body {
 	background: #000000;
 	margin: 0px;
